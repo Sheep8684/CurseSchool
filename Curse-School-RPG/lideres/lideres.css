@@ -1,0 +1,129 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+body{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+#texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: auto;
+}
+
+.sobretoure{
+    background-color: #8c00ff;
+    color: black;
+}
+
+.modifiers{
+    background-color: #ef006c;
+    color: black;
+}
+
+.runnes{
+    background-color: #3f6d95;
+    color: black;
+}
+
+.naturalis{
+    background-color: #609e8e;
+    color: black;
+}
+
+.artemors{
+    background-color: #cc2b57;
+    color: black;
+}
+
+.magicians{
+    background-color: #5700ff; 
+    color: black;   
+}
+
+
+.imgcl1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgcla{
+    width: 400px;
+    height: 400px;
+}
+
+.botoes1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+}
+
+#voltar{
+    background-color: #5700ff;
+    color: black;
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    font-size: 50px;
+}
+
+.runnesimg{
+    display: grid;
+    grid-template-columns:  repeat(2,200px);
+    grid-template-rows: repeat(2,300px);
+    gap: 10px;
+}
+
+.runnesimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.naturalisimg{
+    display: grid;
+    grid-template-columns:  repeat(2,200px);
+    grid-template-rows: repeat(2,300px);
+    gap: 10px;
+}
+
+.naturalisimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.magiciansimg{
+    display: grid;
+    grid-template-columns:  repeat(3,200px);
+    grid-template-rows: repeat(3,250px);
+    gap: 10px;
+}
+
+.magiciansimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.artemorsimg{
+    display: grid;
+    grid-template-columns:  repeat(3,200px);
+    grid-template-rows: repeat(3,250px);
+    gap: 10px;
+}
+
+.artemorsimg img{
+    width: 100%;
+    height: 100%;
+}
